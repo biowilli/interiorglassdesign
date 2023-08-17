@@ -8,7 +8,7 @@ const Contact = (props) => {
         <a href="#">
           <img class="w-full rounded-lg" src={profil} alt="Steffi Avatar" />
         </a>
-        <div>
+        <div class="p-5">
           <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
             <a href="#">
               {" "}

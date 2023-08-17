@@ -92,7 +92,7 @@ const Glas = () => {
               <EasyTrans>processCaption</EasyTrans>
             </p>
           </div>
-          <div class="flex mt-20">
+          <div class="flex flex-col mt-20 md:flex-row md:justify-center">
             <div class="flex flex-col items-center mx-auto my-4">
               <div class="text-6xl flex items-center justify-center h-24 w-24 rounded-full bg-fairblue text-white">
                 1

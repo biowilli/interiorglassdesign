@@ -8,9 +8,8 @@ import Contact from "../components/bundel/Contact";
 
 const features = [
   {
-    name:  <EasyTrans>serviceOrganisator1</EasyTrans>,
-    description:
-    <EasyTrans>serviceCaptionOrganisator1</EasyTrans>,
+    name: <EasyTrans>serviceOrganisator1</EasyTrans>,
+    description: <EasyTrans>serviceCaptionOrganisator1</EasyTrans>,
     icon: HeartIcon,
   },
   {
@@ -23,7 +22,8 @@ const features = [
     description: <EasyTrans>serviceCaptionOrganisator3</EasyTrans>,
     icon: HeartIcon,
   },
-  { name:<EasyTrans>serviceOrganisator4</EasyTrans>,
+  {
+    name: <EasyTrans>serviceOrganisator4</EasyTrans>,
     description: <EasyTrans>serviceCaptionOrganisator4</EasyTrans>,
     icon: HeartIcon,
   },
@@ -46,22 +46,22 @@ const Organisator = () => {
   return (
     <div>
       <FirstView
-      headerblack={<EasyTrans>headerBlackGlas</EasyTrans>}
-      headerColor={<EasyTrans>headerColorOrganistor</EasyTrans>}
-      caption={<EasyTrans>headerCaptionOrganistor</EasyTrans>}
-      link=""
+        headerblack={<EasyTrans>headerBlackGlas</EasyTrans>}
+        headerColor={<EasyTrans>headerColorOrganistor</EasyTrans>}
+        caption={<EasyTrans>headerCaptionOrganistor</EasyTrans>}
+        link=""
       ></FirstView>
       <div id="features" className="bg-fairpage">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="lg:text-center">
             <h2 className="text-base text-fairblue font-semibold tracking-wide uppercase">
-            <EasyTrans>characteristics</EasyTrans>
+              <EasyTrans>characteristics</EasyTrans>
             </h2>
             <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-            <EasyTrans>services</EasyTrans>
+              <EasyTrans>services</EasyTrans>
             </p>
             <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-            <EasyTrans>servicesCaption</EasyTrans>
+              <EasyTrans>servicesCaption</EasyTrans>
             </p>
           </div>
           <div className="mt-10">
@@ -88,14 +88,14 @@ const Organisator = () => {
       <section class="bg-fairpage dark:bg-gray-900">
         <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
           <div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
-          <h2 className="text-base text-fairblue font-semibold tracking-wide uppercase">
-            <EasyTrans>expert</EasyTrans>
+            <h2 className="text-base text-fairblue font-semibold tracking-wide uppercase">
+              <EasyTrans>expert</EasyTrans>
             </h2>
             <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
-            <EasyTrans>introduction</EasyTrans>
+              <EasyTrans>introduction</EasyTrans>
             </h2>
             <p class="font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400">
-            <EasyTrans>introductionCaption</EasyTrans>
+              <EasyTrans>introductionCaption</EasyTrans>
             </p>
           </div>
           <Contact></Contact>

@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import LanguageService from "../../services/LanguageService";
 import ISO6391 from "iso-639-1";
 
-
 const Language = () => {
   const [selectedSVG, setSelectedSVG] = useState(null);
 

@@ -87,7 +87,7 @@ const Navbar = () => {
                       }}
                       className={classNames(
                         landingpage ? "border-b-2 border-fairblue" : "",
-                        "px-3 py-2 text-sm font-medium text-fairblue hover:bg-fairblue hover:text-fairgray hover:rounded-md",
+                        "px-3 py-2 text-sm font-medium text-fairblue hover:bg-fairblue hover:text-fairgray hover:rounded-md"
                       )}
                       aria-current={true ? "page" : undefined}
                     >
@@ -101,7 +101,7 @@ const Navbar = () => {
                       }}
                       className={classNames(
                         searchwork ? "border-b-2 border-fairblue" : "",
-                        "px-3 py-2 text-sm font-medium text-fairblue hover:bg-fairblue hover:text-fairgray hover:rounded-md",
+                        "px-3 py-2 text-sm font-medium text-fairblue hover:bg-fairblue hover:text-fairgray hover:rounded-md"
                       )}
                       aria-current={true ? "page" : undefined}
                     >
@@ -128,7 +128,7 @@ const Navbar = () => {
                             href="#"
                             className={classNames(
                               active ? "bg-gray-100" : "",
-                              "block px-4 py-2 text-sm text-gray-700",
+                              "block px-4 py-2 text-sm text-gray-700"
                             )}
                           >
                             <EasyTrans>Navigation.Profil</EasyTrans>
@@ -141,7 +141,7 @@ const Navbar = () => {
                             href="#"
                             className={classNames(
                               active ? "bg-gray-100" : "",
-                              "block px-4 py-2 text-sm text-gray-700",
+                              "block px-4 py-2 text-sm text-gray-700"
                             )}
                           >
                             <EasyTrans>Navigation.Logout</EasyTrans>
@@ -169,7 +169,7 @@ const Navbar = () => {
                   as="a"
                   className={classNames(
                     landingpage ? "border-b-2 border-fairblue" : "",
-                    "block px-3 py-2 text-base px-3 py-2 text-sm font-medium text-fairblue hover:bg-fairblue hover:text-fairgray hover:rounded-md",
+                    "block px-3 py-2 text-base px-3 py-2 text-sm font-medium text-fairblue hover:bg-fairblue hover:text-fairgray hover:rounded-md"
                   )}
                   aria-current={false ? "page" : undefined}
                 >
@@ -187,7 +187,7 @@ const Navbar = () => {
                   as="a"
                   className={classNames(
                     searchwork ? "border-b-2 border-fairblue" : "",
-                    "block px-3 py-2 text-base px-3 py-2 text-sm font-medium text-fairblue hover:bg-fairblue hover:text-fairgray hover:rounded-md",
+                    "block px-3 py-2 text-base px-3 py-2 text-sm font-medium text-fairblue hover:bg-fairblue hover:text-fairgray hover:rounded-md"
                   )}
                   aria-current={false ? "page" : undefined}
                 >

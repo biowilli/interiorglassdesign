@@ -9,31 +9,29 @@ import clock from "./../../assets/gallery/clock.jpg";
 const ImageGallery = () => {
   return (
    <>
-    <div class="grid grid-cols-2 md:grid-cols-3 gap-3">
-    <div class="grid gap-3">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
     <div>
             <img class="h-auto max-w-full rounded-lg" src={wine1} alt=""></img>
         </div>
         <div>
             <img class="h-auto max-w-full rounded-lg" src={wine2} alt=""></img>
         </div>
-    </div>
-    <div class="grid gap-3">
+
+
         <div>
             <img class="h-auto max-w-full rounded-lg" src={clock} alt=""></img>
         </div>
         <div>
             <img class="h-auto max-w-full rounded-lg" src={flower} alt=""></img>
         </div>
-    </div>
-    <div class="grid gap-3">
+
+
          <div>
             <img class="h-auto max-w-full rounded-lg" src={box2} alt=""></img>
         </div>
         <div>
-            <img class="h-auto max-w-full rounded-lg" src={box2} alt=""></img>
+            <img class="h-auto max-w-full rounded-lg" src={box1} alt=""></img>
         </div>
-    </div>
 </div>
 </>
   );
